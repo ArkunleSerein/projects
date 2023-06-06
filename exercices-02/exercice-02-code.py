@@ -7,4 +7,3 @@ print(round(0.9))
 # la fonction `round()` permet aussi d'arrondir en précisant le nombre de chiffres après la virgule
 # arrondir à un nombre décimal à 4 chiffres après la virgule
 print(round(1 / 3, 4))
-

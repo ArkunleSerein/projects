@@ -135,6 +135,7 @@ Decimal("0.5").quantize(Decimal("1")) # Decimal('1')
 Decimal("1.5").quantize(Decimal("1")) # Decimal('2')
 
 
+
 # pour envoyer sur github
 # git add 
 # git commit
