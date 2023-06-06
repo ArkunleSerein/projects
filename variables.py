@@ -56,7 +56,7 @@ print((bool(number3)))
 #transtypage str -> int génère une erreur
 # il ne peut pas y avoir autre chose qu'un nombre
 # dans la chaine de caractères 
-# si on veut la converir en int
+# si on veut la convertir en int
 text3 = "123456789"
 print(type(int(text3)))
 
@@ -65,3 +65,46 @@ print(type(int(text3)))
 # int() convertit vers integer
 # float() convertit vers float
 # bool ( convertit vers boolean)
+
+# chaîne de caractères, string
+# cette notation permet d'utiliser des saut de ligne
+text4 = """"<div> <h1>Titre de premier niveau</h1>
+</div>
+"""
+
+ # \n est équivalent à un saut de ligne
+ # \t est équivalent à une tabulation 
+text5 = "<div>\n\t<h1>Titre de premier niveau</h1>\n</div>\n"
+print(text5)
+
+# la backslash seul est le caractère d'échappement
+# \" est équivalent à une guillemet "
+# \\ est équivalent à un backslash \
+
+text6 = "foo \"Bar\" Baz"
+print(text6)
+
+text7 = "C:\\Program Files\\Foo"
+print(text7)
+
+# permuter les 2 variables a et b en utilisant l'opérateur d'affectation et le nom des variables.
+a = 123
+b = 42
+a, b = b, a
+
+print(a,b)
+
+c = 123
+d = 42
+
+e = d
+d = c
+c = e
+
+print( c, d)
+# permutation des valeurs de manière arithmétique 
+
+# pour envoyer sur github
+# git add 
+# git commit
+# git push
