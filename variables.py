@@ -104,6 +104,37 @@ c = e
 print( c, d)
 # permutation des valeurs de manière arithmétique 
 
+c = b
+b = a 
+a = c
+
+# permutation de manière pythonique
+b, a = a, b
+
+# addition de float
+# affiche 0.30000000000000004 au lieu de 0.3
+print(0.1 + 0.1 + 0.1)
+
+from decimal import Decimal
+
+# affiche correctement 0.3
+print(Decimal("0.1") + Decimal("0.1") + Decimal("0.1"))
+
+# affiche correctement 0.3
+print(Decimal ("0.3"))
+
+
+import decimal
+from decimal import Decimal
+
+Decimal('0.1') + Decimal('0.1') + Decimal('0.1') == Decimal('0.3') # True
+
+# demande d'utilisation du mode d'arrondi habituel, c-à-d ROUND_HALF_UP
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+Decimal("0.5").quantize(Decimal("1")) # Decimal('1')
+Decimal("1.5").quantize(Decimal("1")) # Decimal('2')
+
+
 # pour envoyer sur github
 # git add 
 # git commit
