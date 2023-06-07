@@ -10,4 +10,4 @@ number = random.randint(0, 9)
 print(number)
 
 # réponse 4.4
-
+print("le nombre est supérieur ou égale à 5") if number >= 5 else print("le nombre est inférieur à 5")
