@@ -8,3 +8,12 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.10
 
+total = 0
+longueur = len(my_list)
+for ele in range(0, len(my_list)):
+
+    total = total + my_list[ele]
+
+total = total / longueur
+
+print("la moyennes des nombres de la liste =", total)

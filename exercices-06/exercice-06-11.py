@@ -9,3 +9,11 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.11
 
+i = 0
+
+# boucle `foreach` avec les index associés aux items
+
+for i, item in enumerate(my_list):
+    if item == 3.14:  
+        print(i, item)
+        

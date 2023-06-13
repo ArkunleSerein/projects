@@ -71,11 +71,10 @@ print(list1)
 text8 = "+" .join(list1)
 print(text8)
 
-# pour inverser des mots dans une list
+# pour inverser des mots dans une liste :
+#___________________________________________#
+# foo = [1, 2, 3]
+# tmp = foo[0]
+# foo[0], foo[1] = foo[1], foo[0]
+#____________________________________________#
 
-#foo = [1, 2, 3]
-
-#tmp = foo[0]
-#foo[0] = foo[1]
-#foo[1] = tmp
-# mot[0], mot[1] = mot[1], foo[0]
