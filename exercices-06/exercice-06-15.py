@@ -9,3 +9,6 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 
 # réponse 6.15
 
+for i in my_list:
+    if 'i' > all:
+      print(i)

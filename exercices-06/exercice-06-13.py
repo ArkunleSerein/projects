@@ -7,3 +7,8 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
 
+
+for i in range(len(my_list)):
+    my_list[i] *= 100
+
+print(my_list)

@@ -40,7 +40,7 @@ while i < 10:
 for i in range(0, -1, -1):
      print(f'{i = }')
 
-#boucle for each
+# boucle for each
 users = ['foo','bar','baz']
 
 for user in users:
@@ -50,7 +50,19 @@ for user in users:
 for user in enumerate(users):
      print(f"{i = }, {user = }")
 
-# boucle for $
+# boucle for 
 for i in range(0, len(users)):
      user = users[i]
      print(f"{i = }, {user = }")
+
+# accumulateur
+
+accumulateur = 0
+for i in range(1, 11):
+     accumulateur += i
+     print(f"{i = }")
+     print(f"{accumulateur = }")
+
+print()
+print(f"{accumulateur = }")
+
