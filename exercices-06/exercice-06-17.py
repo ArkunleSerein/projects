@@ -17,3 +17,8 @@ print(matrix)
 
 # réponse 6.17
 
+row_index = 2
+col_index = 3
+
+value = matrix[row_index][col_index]
+print("La valeur à la colonne", col_index+1, "ligne", row_index+1, "est :", value)

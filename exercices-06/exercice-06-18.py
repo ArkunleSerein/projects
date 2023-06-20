@@ -17,3 +17,15 @@ print(matrix)
 
 # réponse 6.18
 
+row = 0
+col = 0
+
+for row_index in range(0, len(matrix)):
+        row = matrix[row_index]
+
+        for col_index in range(0, len(row)):
+                result = row[col_index]
+                
+                if result <= 50:
+                 print(result)
+
