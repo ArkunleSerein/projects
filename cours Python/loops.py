@@ -66,3 +66,21 @@ for i in range(1, 11):
 print()
 print(f"{accumulateur = }")
 
+# utiliser la valeur précédente dans une boucle. "previous"
+numbers = [123, 42, 1000, 3.14]
+# avant le premier tour, il n'y a pas de valeur précédente
+previous = None
+
+for number in numbers:
+     # traitement des données
+     # on affiche la valeur du tour actuel
+     print(previous)
+     # on affiche la valeur du tour précédent
+     print(number)
+
+     # on sauvegarde la valeur du tour actuel pour le tour suivant
+     # cette valeur deviendra la valeur du tour précédent
+     previous = number
+
+
+

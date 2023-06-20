@@ -8,7 +8,16 @@
 my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 
 # réponse 6.15
+longest_string = ''
+longest_length = 0
+longest_index = -1
 
-for i in my_list:
-    if 'i' > all:
-      print(i)
+for index, string in enumerate(my_list):
+    if len(string) > longest_length:
+        longest_string = string
+        longest_length = len(string)
+        longest_index = index
+
+print("Index:", longest_index)
+print("Valeur:", longest_string)
+print("Longueur:", longest_length)
