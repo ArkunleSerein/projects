@@ -6,4 +6,11 @@
 import random
 
 # réponse 7.8
+count = 0
+for _ in range(100):
+    r = random.randint(1, 10)
+    if r == 7:
+        count += 1
 
+        
+print(count, end=" ")

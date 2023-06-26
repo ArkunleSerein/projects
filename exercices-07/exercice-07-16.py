@@ -3,3 +3,7 @@
 
 # réponse 7.16
 
+for i in range(0, 100):
+        
+        print("\n puissance 2 = ", i**2, end=" ")
+        print(i, end=" ")
