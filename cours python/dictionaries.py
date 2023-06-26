@@ -55,7 +55,7 @@ print(my_dict)
 
 # supprimer une entrée existance en gardant une copie
 
-a = my_dict.pop['101']
+a = my_dict.pop(101)
 
 # supprimer une entrée existance sans garder une copie
 
