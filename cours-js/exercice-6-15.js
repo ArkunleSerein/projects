@@ -8,10 +8,50 @@
 let my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 
 // réponse 6.15
+let index = null;
+let valeur = "";
+let longueur = 0;
 
-// my_list.length
+
 for (let i = 0; i < my_list.length; i++) {
-    console.log(i);
+    /* console.log(i);
     console.log(my_list[i]);
-    console.log(my_list[i].length);
+    console.log(my_list[i].length); */
+
+    if (my_list[i].length > longueur){
+        // MàJ, c'est à dire stockage stockage de la plus grande longueur rencontrée jusque maintenant
+        longueur = my_list[i].length;
+        // stockage des autres informations demandée
+        index = i;
+        valeur = my_list[i];
+    }
+}
+
+/* console.log(index);
+console.log(valeur)
+console.log(longueur); */
+
+
+// Boucle for each qui permet de récupérer les valeurs mais pas l'index
+// initialisation de l'index
+let i = 0
+
+
+// reset des données (nécessaire parce qu'on a déjà le même algo en haut)
+index = null;
+valeur = "";
+longueur = 0;
+
+for(let word of my_list) {
+    //console.log(i, word, word.length);
+    if (my_list[i].length > longueur){
+        // MàJ, c'est à dire stockage stockage de la plus grande longueur rencontrée jusque maintenant
+        longueur = my_list[i].length;
+        // stockage des autres informations demandée
+        index = i;
+        valeur = my_list[i];
+    }
+    // incrément de l'index
+    i++;
+    console.log(index, valeur, longueur);
 }
