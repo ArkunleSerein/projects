@@ -10,6 +10,8 @@ let my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipisc
 // réponse 6.15
 
 // my_list.length
-let i = 0
-console.log(i);
-i++;
+for (let i = 0; i < my_list.length; i++) {
+    console.log(i);
+    console.log(my_list[i]);
+    console.log(my_list[i].length);
+}
