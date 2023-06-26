@@ -1,8 +1,11 @@
+// la première déclaration de valeur d'une variable s'appelle initialisation (compteur ou index) (exemple : [let i = 0]
+// [i < 10] correspond à la comparaison
+// [i++] correspond à un auto incrémment ou décrémemnt
 // boucle for classique
 for (let i = 0; i < 10; i++) {
     console.log("i = " + i)
 }
-//boucle à rebours
+//boucle for à rebours
 for (let i = 10; i > 0; i--){
     console.log("i = " + i);
 }
@@ -34,4 +37,5 @@ users.forEach(
     (i, user, list) => {
         console.log(`i = ${i}, user = ${user}`);
     }
-);
+)
+
