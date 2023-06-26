@@ -62,3 +62,64 @@ print(result)
 
 # le nom de la fonction + ses paramètres + son type de retour = signature de la fonction
 # def mult(a: int, b: int) -> int:
+
+#  
+#  
+#  copie d'une fonction comme ci c'était une variable.
+mult_copy = mult
+mult_copy(2, 5)
+
+# fonction de degré supérieur
+# fonction qui accepte une fonction en paramètre ou qui renvoie une fonction
+def operateur_binaire(a, b, fonction):
+    return fonction(a, b)
+
+
+
+# stockage de fonctions dans une liste
+operations = []
+operations.append(addition)
+operations.append(mult)
+
+a = 2
+b = 5
+resultat = None 
+
+for operation in operations:
+    resultat = operation(a, b)
+    print(resultat)
+
+# appel de la fonction de degré supérieur
+resultat = operateur_binaire(2, 5, mult)
+
+my_list = ['foo', 'ipsum']
+text = "toto"
+
+print(len(my_list))
+print(len(text))
+
+def my_len(value):
+    return 42
+
+# Sauvegarde de la fonction len() originale
+len_backup = len
+# Surcharge de la fonction len() originale (remplacement par une autre fonction)
+len = my_len
+
+print(len(my_list))
+print(len(text))
+
+# restauration de la fonction len () originale
+len = len_backup
+
+# "pass" permet d'écrire du code python syntaxiquement valide même quand on a pas encore le corps ou la condition if ou de la boucle for 
+if True:
+    pass 
+
+#_________________________________________________________#
+
+""" # fonction RECURSIVE = Fonction qui s'auto-appelle """
+
+#_________________________________________________________#
+
+
