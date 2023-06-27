@@ -121,5 +121,3 @@ if True:
 """ # fonction RECURSIVE = Fonction qui s'auto-appelle """
 
 #_________________________________________________________#
-
-
