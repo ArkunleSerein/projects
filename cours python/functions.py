@@ -69,7 +69,7 @@ print(result)
 mult_copy = mult
 mult_copy(2, 5)
 
-# fonction de degré supérieur
+# fonction d'ordre supérieur
 # fonction qui accepte une fonction en paramètre ou qui renvoie une fonction
 def operateur_binaire(a, b, fonction):
     return fonction(a, b)
@@ -89,7 +89,7 @@ for operation in operations:
     resultat = operation(a, b)
     print(resultat)
 
-# appel de la fonction de degré supérieur
+# appel de la fonction d'ordre supérieur
 resultat = operateur_binaire(2, 5, mult)
 
 my_list = ['foo', 'ipsum']
