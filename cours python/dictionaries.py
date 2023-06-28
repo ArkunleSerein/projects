@@ -11,6 +11,7 @@ print(fruits)
 print(fruits['a'])
 fruit = fruits['a']
 
+
 # accés en écriture
 
 fruits['a'] = 'abricot'
@@ -23,7 +24,7 @@ for key in fruits:
     print(f"{key = }")
     # fruits[key] contient la valeur associée à la clé
     print(f"fruits = {[key]}")
-
+exit()
 # boucle foreach pour obtenir les clés et les valeurs en même temps
 
 for key, value in fruits.items():
@@ -48,6 +49,7 @@ my_dict = {
 }
 
 print(my_dict)
+
 # ajouter une nouvelle entrée
 
 my_dict['baz'] = 1

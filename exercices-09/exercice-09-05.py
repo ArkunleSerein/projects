@@ -11,3 +11,5 @@ my_dict = {
 
 # réponse 9.5
 
+a = my_dict.pop('foo')
+print(my_dict)

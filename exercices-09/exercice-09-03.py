@@ -11,3 +11,5 @@ my_dict = {
 
 # réponse 9.3
 
+my_dict['ipsum'] = 2.71
+print(my_dict)

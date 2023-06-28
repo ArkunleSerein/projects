@@ -10,3 +10,4 @@ my_dict = {
 
 # réponse 9.4
 
+print(my_dict['lorem'])
